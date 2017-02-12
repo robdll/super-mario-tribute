@@ -5,6 +5,11 @@
   "repository": "git@github.com:koop4/super-mario-tribute.git",
   "author": "koop4 <dilillo.roberto@gmail.com>",
   "license": "UNLICENSED",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack --config webpack.config.js",
+    "deploy": "webpack -p --config webpack.config.js"
+  },
   "devDependencies": {
     "webpack": "^2.2.1",
     "webpack-dev-server": "2"
