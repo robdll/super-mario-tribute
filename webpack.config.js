@@ -9,14 +9,28 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, './dist'),
-    filename: 'site.bundle.js',
+    filename: 'app.bundle.js',
     publicPath: '/assets',
   },
   devServer: { 
     contentBase: path.resolve(__dirname, './src') 
   },
   module: {
-    loaders: [
+    rules: [
+      {
+        test: /\.css$/, 
+        use: [
+          {
+            loader: 'style-loader'
+          },
+          {
+            loader: 'css-loader',
+            options: {
+              modules: true
+            }
+          }
+        ]
+      },
       {
         test: /\.js$/,
         exclude: /(node_modules|bower_components)/,
