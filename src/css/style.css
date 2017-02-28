@@ -24,15 +24,13 @@ body header {
 
 
 
-
-
 @media screen and (max-width: 1024px) and (min-width: 750px) {
     body {
       background: url('../resources/img/background_1440.jpg') no-repeat center center fixed;  
       -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
     }
 }
 
@@ -40,6 +38,10 @@ body header {
 @media screen and (min-width: 1025px) {
     body {
       background: url('../resources/img/background_1920.jpg') no-repeat center center fixed;  
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
     }
 }
 
