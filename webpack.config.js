@@ -4,9 +4,7 @@ const webpack = require('webpack');
 module.exports = {
     //__dirname refers to the directory where this webpack.config.js lives
   context: path.resolve(__dirname, './src'),
-  entry: { 
-    app: './builder.js' 
-  },
+  entry: ['bootstrap-loader', './builder.js'],
   output: {
     path: path.resolve(__dirname, './dist'),
     filename: 'app.bundle.js',
@@ -24,7 +22,10 @@ module.exports = {
           { loader: 'css-loader', options: { modules: true } }
         ]
       },
-
+      { 
+        test:/bootstrap-sass[\/\\]assets[\/\\]javascripts[\/\\]/, 
+        loader: 'imports-loader?jQuery=jquery' 
+      },
       {
           test: /\.(eot|woff|woff2|ttf|svg|png|jpg)$/,
           loader: 'url-loader?limit=30000&name=[name]-[hash].[ext]'
@@ -38,5 +39,11 @@ module.exports = {
         }
       }
     ]
-  }
+  },
+  plugins: [
+      new webpack.ProvidePlugin({
+          $: "jquery",
+          jQuery: "jquery"
+      })
+  ]
 };
