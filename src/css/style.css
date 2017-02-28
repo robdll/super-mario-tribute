@@ -1,19 +1,65 @@
+
+
+
 html {
   height: 100%;
 }
 
- body {
-  background-image: linear-gradient(to bottom, #0B88FF, #00EEFF);
-  background-repeat: no-repeat;
+body {
   height: 100%;
-  width: 100%;
-  margin: 0px;
+  background: url('../resources/img/bg_475_675.jpg') no-repeat center center fixed;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   font-family: 'superMario';
+  padding: 30px;
+  
 }
 
+body header {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) and (min-width: 750px) {
+    body {
+      background: url('../resources/img/background_1440.jpg') no-repeat center center fixed;  
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    }
+}
+
+
+@media screen and (min-width: 1025px) {
+    body {
+      background: url('../resources/img/background_1920.jpg') no-repeat center center fixed;  
+    }
+}
+
+
+h1{
+  font-size: 48px;
+  margin-bottom: 40px;
+  color: white;
+
+}
+
+h2 {
+  margin-top: 20;
+  color: white;
+}
 
 @font-face {
   font-family: 'superMario';
   src: url('../resources/font/prstart.ttf');
 }
+
+
 
