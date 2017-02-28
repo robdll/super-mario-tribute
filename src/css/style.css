@@ -7,7 +7,7 @@ html {
 
 body {
   height: 100%;
-  background: url('../resources/img/bg_475_675.jpg') no-repeat center center fixed;  
+  background: url('../resources/img/background_475.jpg') no-repeat center center fixed;  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -24,7 +24,17 @@ body header {
 
 
 
-@media screen and (max-width: 1024px) and (min-width: 750px) {
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    body {
+      background: url('../resources/img/background_900.jpg') no-repeat center center fixed;  
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 901px) {
     body {
       background: url('../resources/img/background_1440.jpg') no-repeat center center fixed;  
       -webkit-background-size: cover;
@@ -35,7 +45,7 @@ body header {
 }
 
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1041px) {
     body {
       background: url('../resources/img/background_1920.jpg') no-repeat center center fixed;  
       -webkit-background-size: cover;
