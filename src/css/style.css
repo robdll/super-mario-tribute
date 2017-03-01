@@ -27,37 +27,11 @@ main {
   padding: 30px 10px;
 }
 
-@media screen and (max-width: 900px) and (min-width: 600px) {
-    body {
-      background: url('../resources/img/background_900.jpg') no-repeat center center fixed;  
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-    }
+@media screen and (min-width: 901px){
+  header {
+    height: 86%;
+  } 
 }
-
-@media screen and (max-width: 1440px) and (min-width: 901px) {
-    body {
-      background: url('../resources/img/background_1440.jpg') no-repeat center center fixed;  
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-    }
-}
-
-
-@media screen and (min-width: 1041px) {
-    body {
-      background: url('../resources/img/background_1920.jpg') no-repeat center center fixed;  
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-    }
-}
-
 
 h1{
   font-size: 36px;
@@ -78,4 +52,31 @@ h2, h3, h4 {
 }
 
 
+@media screen and (max-width: 1440px) and (min-width: 901px) {
+    body {
+      background: url('../resources/img/background_900.jpg') no-repeat center center fixed;  
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+    main {
+        background: url('../resources/img/top_pipe_900.png') no-repeat center top scroll,
+                    url('../resources/img/center_pipe_900.png') repeat-y center top scroll;
+    }
+}
 
+@media screen and (min-width: 1441px) {
+    body {
+      background: url('../resources/img/background_1920.jpg') no-repeat center center fixed;  
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+    main {
+      background: url('../resources/img/top_pipe_1920.png') no-repeat center top scroll,
+                  url('../resources/img/center_pipe.png') repeat-y center top scroll;  
+      padding: 30px 10px;
+    }
+}
