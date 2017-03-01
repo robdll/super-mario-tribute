@@ -23,22 +23,26 @@ body {
 }
 
 header {
-  height: 90%;
+  height: 90%; 
+  width: 85%;
+  margin: 0 auto; 
 }
 
 main {
   background: url('../resources/img/top_pipe_475.png') no-repeat center top scroll,
               url('../resources/img/center_pipe_475.png') repeat-y center top scroll;  
-  padding: 100px 5px;
+  padding: 15px 5px;
 }
 
+ul {
+  text-align: center;
+}
 
 li {
     display: inline-block;
     white-space: nowrap;
     list-style-type: none;
-    text-align: center;
-    width: 100%;
+    width: 75%;
 }
 
 li div {
@@ -46,10 +50,9 @@ li div {
   margin: 20px;
 }
 
-li div h2 {
-  border: 3px solid white;
-  font-size: 18px;
-  padding: 15px 20px
+li div h1 {
+  border: 1px solid white;
+  padding: 15px 3px;
 }
 
 li article {
@@ -64,11 +67,12 @@ li article {
 }
 
 li article h3, li article h4 {
+  text-align: center;
   text-transform: uppercase;
 }
 
 li article p {
-  margin: 10px auto;
+  margin: 10px 15px;
 }
 
 h1{
@@ -105,6 +109,9 @@ h2, h3, h4 {
         background: url('../resources/img/top_pipe_900.png') no-repeat center top scroll,
                     url('../resources/img/center_pipe_900.png') repeat-y center top scroll;
     }
+    header {
+      width: 70%;
+    }
 }
 
 @media screen and (min-width: 1441px) {
@@ -118,6 +125,8 @@ h2, h3, h4 {
     main {
       background: url('../resources/img/top_pipe_1920.png') no-repeat center top scroll,
                   url('../resources/img/center_pipe_1920.png') repeat-y center top scroll;  
-      padding: 30px 10px;
+    }
+    header {
+      width: 50%;
     }
 }
