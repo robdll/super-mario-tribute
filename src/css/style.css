@@ -13,8 +13,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   font-family: 'superMario';
-  padding: 60px 30px 30px 30px;
-  
+  padding: 60px 0px 30px 0px; 
 }
 
 header {
@@ -24,14 +23,10 @@ header {
 main {
   background: url('../resources/img/top_pipe_475.png') no-repeat center top scroll,
               url('../resources/img/center_pipe_475.png') repeat-y center top scroll;  
-  padding: 30px 10px;
+  padding: 100px 5px;
 }
 
-@media screen and (min-width: 901px){
-  header {
-    height: 86%;
-  } 
-}
+
 
 h1{
   font-size: 36px;
@@ -51,6 +46,12 @@ h2, h3, h4 {
   src: url('../resources/font/prstart.ttf');
 }
 
+
+@media screen and (min-width: 901px){
+  header {
+    height: 86%;
+  } 
+}
 
 @media screen and (max-width: 1440px) and (min-width: 901px) {
     body {
