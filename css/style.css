@@ -6,8 +6,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: 'superMario';
-  color: white;
 }
 
 header {
@@ -66,21 +64,17 @@ li article p {
   margin: 10px 15px;
 }
 
-h1{
+h1 {
   font-size: 36px;
-  margin: 30px auto 60px auto;
+  line-height: 1.5;
+  margin-bottom: 45px;
 }
 
-h2, h3, h4 {
-  margin: 15px;
+.sign {
+  color: black;
+  opacity: 0.6;
+  text-align: right;
 }
-
-
-@font-face {
-  font-family: 'superMario';
-  src: url('../resources/font/prstart.ttf');
-}
-
 
 @media screen and (min-width: 901px){
   header {
