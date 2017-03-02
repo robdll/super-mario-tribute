@@ -9,6 +9,7 @@ body {
 body header {
   height: 100%; 
   padding: 30px;
+  margin: 0 auto;
 }
 
 body header h1 {
@@ -77,7 +78,7 @@ li article p {
   } 
 }
 
-@media screen and (max-width: 1440px) and (min-width: 901px) {
+@media screen and (max-width: 1440px) and (min-width: 780px) {
     body {
       background: url('../resources/img/background_900.png') no-repeat center center fixed;  
       -webkit-background-size: cover;
