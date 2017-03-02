@@ -15,7 +15,7 @@ header {
 
 main {
   width: 100%;
-  margin-top: -72px;
+  margin-top: -45px;
   background: url('../resources/img/top_pipe_475.png') no-repeat center top scroll,
               url('../resources/img/center_pipe_475.png') repeat-y center top scroll;  
   padding: 15px 5px;
