@@ -1,40 +1,25 @@
 
 
-html, body, header, main, section, article, footer, h1, h2, h3, h4, h5, ul, ol, li, a, p {
-  margin: 0px;
-  padding: 0px;
-}
-
-a:link, a:visited, a:hover, a:active {
-    text-decoration: none;
-    color: white;
-}
-
-html {
-  height: 100%;
-}
-
 body {
-  height: 100%;
-  background: url('./resources/img/background_475.png') no-repeat center center fixed;  
+  background: url('../resources/img/background_475.png') no-repeat center center fixed;  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   font-family: 'superMario';
-  padding: 60px 0px 30px 0px; 
   color: white;
 }
 
 header {
-  height: 90%; 
-  width: 85%;
-  margin: 0 auto; 
+  height: 100%; 
+  padding: 30px;
 }
 
 main {
-  background: url('./resources/img/top_pipe_475.png') no-repeat center top scroll,
-              url('./resources/img/center_pipe_475.png') repeat-y center top scroll;  
+  width: 100%;
+  margin-top: -72px;
+  background: url('../resources/img/top_pipe_475.png') no-repeat center top scroll,
+              url('../resources/img/center_pipe_475.png') repeat-y center top scroll;  
   padding: 15px 5px;
 }
 
@@ -93,7 +78,7 @@ h2, h3, h4 {
 
 @font-face {
   font-family: 'superMario';
-  src: url('./resources/font/prstart.ttf');
+  src: url('../resources/font/prstart.ttf');
 }
 
 
@@ -105,15 +90,15 @@ h2, h3, h4 {
 
 @media screen and (max-width: 1440px) and (min-width: 901px) {
     body {
-      background: url('./resources/img/background_900.png') no-repeat center center fixed;  
+      background: url('../resources/img/background_900.png') no-repeat center center fixed;  
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
     }
     main {
-        background: url('./resources/img/top_pipe_900.png') no-repeat center top scroll,
-                    url('./resources/img/center_pipe_900.png') repeat-y center top scroll;
+        background: url('../resources/img/top_pipe_900.png') no-repeat center top scroll,
+                    url('../resources/img/center_pipe_900.png') repeat-y center top scroll;
     }
     header {
       width: 70%;
@@ -122,15 +107,15 @@ h2, h3, h4 {
 
 @media screen and (min-width: 1441px) {
     body {
-      background: url('./resources/img/background_1920.png') no-repeat center center fixed;  
+      background: url('../resources/img/background_1920.png') no-repeat center center fixed;  
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
     }
     main {
-      background: url('./resources/img/top_pipe_1920.png') no-repeat center top scroll,
-                  url('./resources/img/center_pipe_1920.png') repeat-y center top scroll;  
+      background: url('../resources/img/top_pipe_1920.png') no-repeat center top scroll,
+                  url('../resources/img/center_pipe_1920.png') repeat-y center top scroll;  
     }
     header {
       width: 50%;

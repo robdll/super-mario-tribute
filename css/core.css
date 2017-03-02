@@ -1,0 +1,19 @@
+
+html, body, header, main, section, article, footer, h1, h2, h3, h4, h5, ul, ol, li, a, p {
+  margin: 0px;
+  padding: 0px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: white;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  line-height: 1.5;
+}
