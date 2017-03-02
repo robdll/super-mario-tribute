@@ -8,9 +8,14 @@ body {
   background-size: cover;
 }
 
-header {
+body header {
   height: 100%; 
   padding: 30px;
+}
+
+body header h1 {
+  font-size: 23px;
+  line-height: 2.0;
 }
 
 main {
@@ -18,7 +23,7 @@ main {
   margin-top: -45px;
   background: url('../resources/img/top_pipe_475.png') no-repeat center top scroll,
               url('../resources/img/center_pipe_475.png') repeat-y center top scroll;  
-  padding: 15px 5px;
+  padding-top: 50px;
 }
 
 ul {
@@ -62,6 +67,8 @@ li article p {
 }
 
 .sign {
+  margin-top: 50px;
+  font-size: 10px;
   color: black;
   opacity: 0.6;
   text-align: right;
