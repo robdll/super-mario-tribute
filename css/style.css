@@ -37,11 +37,8 @@ li div {
   margin: 20px;
 }
 
-li div h1 {
-  border: 1px solid white;
-  padding: 15px 3px;
-  margin: 30px auto 30px auto;
-
+li div h2 {
+  margin: 30px auto;
 }
 
 li article {
@@ -62,12 +59,6 @@ li article h3, li article h4 {
 
 li article p {
   margin: 10px 15px;
-}
-
-h1 {
-  font-size: 36px;
-  line-height: 1.5;
-  margin-bottom: 45px;
 }
 
 .sign {
