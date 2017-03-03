@@ -48,24 +48,41 @@ li {
 li article {
   white-space: normal;
   background-color: black;
-  border: 3px solid white;
+  border: 4px solid white;
   border-radius: 5px;
   box-shadow: 3px;
   margin: 10px auto;
-  padding: 20px;
+  padding: 20px 10px;
   text-align: center;
   display: inline-block;
-  min-width: 350px;
-  
+  min-width: 280px;
+}
+
+
+li article:hover {
+  border-color: #cdf009;
 }
 
 li article h3 {
   text-transform: uppercase;
+  font-size: 14px;
+}
+
+li article h4 {
+  font-size: 14px;
+  margin: 5px 0;
 }
 
 li article img {
   border: 1px dashed white;
-  margin-bottom: 15px;
+  margin: 15px 0 10px 0px;
+  width: 200px;
+  height: auto;
+}
+
+
+li article img:hover {
+  border: 2px dashed #cdf009;
 }
 
 .sign {
