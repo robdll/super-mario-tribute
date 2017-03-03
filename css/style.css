@@ -52,17 +52,20 @@ li article {
   border-radius: 5px;
   box-shadow: 3px;
   margin: 10px auto;
-  padding: 15px;
-  text-align: justify;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  min-width: 350px;
+  
 }
 
-li article h3, li article h4 {
-  text-align: center;
+li article h3 {
   text-transform: uppercase;
 }
 
-li article p {
-  margin: 10px 15px;
+li article img {
+  border: 1px dashed white;
+  margin-bottom: 15px;
 }
 
 .sign {
@@ -133,6 +136,7 @@ li article p {
         url('../resources/img/pc_pipe_top.png') no-repeat center top scroll,
         url('../resources/img/pc_pipe_center.png') repeat-y center top scroll;  
       margin-top: -65px;
+      padding-top: 105px;
 
     }
     
