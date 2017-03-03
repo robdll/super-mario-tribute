@@ -8,12 +8,12 @@ body {
 
 body header {
   height: 100%; 
-  padding: 30px;
+  padding: 60px 30px;
   margin: 0 auto;
 }
 
 body header h1 {
-  font-size: 23px;
+  font-size: 26px;
   line-height: 2.0;
   font-weight: 600;
 }
@@ -74,7 +74,7 @@ li article p {
 }
 
 
-
+/** smartphone landscape */
 @media screen and (orientation: landscape) {
   body {
       background: url('../resources/img/sm_background_landscape.png') no-repeat center center fixed;  
@@ -83,6 +83,11 @@ li article p {
       -o-background-size: cover;
       background-size: cover;
     }
+}
+
+/** tablet portrait */
+@media screen and (orientation: portrait) and (min-width: 750px) {
+  
 }
 
 @media screen and (max-width: 1440px) and (min-width: 750px) {
@@ -98,8 +103,17 @@ li article p {
           url('../resources/img/tb_pipe_top_landscape.png') no-repeat center top scroll,
           url('../resources/img/tb_pipe_center_landscape.png') repeat-y center top scroll;
     }
-    header {
-      width: 70%;
+    body header {
+      width: 80%;
+    }
+    
+    body header h1{
+      font-size: 48px;
+      padding-top: 75px; 
+    }
+
+    .sign {
+      font-size: 25px;
     }
 }
 
