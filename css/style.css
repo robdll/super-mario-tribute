@@ -12,15 +12,15 @@ body header {
   margin: 0 auto;
 }
 
-body header h1 {
-  font-size: 26px;
+  body header h1 {
+    font-size: 26px;
   line-height: 2.0;
   font-weight: 600;
 }
 
 main {
   width: 100%;
-  margin-top: -55px;
+  margin-top: -45px;
   background: 
     url('../resources/img/sm_pipe_top_portrait.png') no-repeat center top scroll,
     url('../resources/img/sm_pipe_center_portrait.png') repeat-y center top scroll;  
@@ -85,12 +85,7 @@ li article p {
     }
 }
 
-/** tablet portrait */
-@media screen and (orientation: portrait) and (min-width: 750px) {
-  
-}
-
-@media screen and (max-width: 1440px) and (min-width: 750px) {
+@media screen and (max-width: 1280px) and (min-width: 750px) {
     body {
       background: url('../resources/img/tb_background_portrait.png') no-repeat center center fixed;  
       -webkit-background-size: cover;
@@ -99,25 +94,32 @@ li article p {
       background-size: cover;
     }
     main {
-        background: 
-          url('../resources/img/tb_pipe_top_landscape.png') no-repeat center top scroll,
-          url('../resources/img/tb_pipe_center_landscape.png') repeat-y center top scroll;
+      background: 
+        url('../resources/img/tb_pipe_top_portrait.png') no-repeat center top scroll,
+        url('../resources/img/tb_pipe_center_portrait.png') repeat-y center top scroll;
+        margin-top: -125px;
+        padding-top: 165px;
     }
-    body header {
+    body header { 
       width: 80%;
+      padding-top: 75px;
     }
     
     body header h1{
-      font-size: 48px;
-      padding-top: 75px; 
+      font-size: 40px;
     }
 
     .sign {
       font-size: 25px;
     }
+
+
+    .year {
+      font-size: 44px;
+    }
 }
 
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 1281px) {
     body {
       background: url('../resources/img/pc_background.png') no-repeat center center fixed;  
       -webkit-background-size: cover;
@@ -125,12 +127,30 @@ li article p {
       -o-background-size: cover;
       background-size: cover;
     }
+
     main {
       background: 
         url('../resources/img/pc_pipe_top.png') no-repeat center top scroll,
         url('../resources/img/pc_pipe_center.png') repeat-y center top scroll;  
+      margin-top: -65px;
+
     }
-    header {
-      width: 50%;
+    
+    body header {
+      width: 60%;
+    }
+
+
+
+    body header h1{
+      font-size: 40px;
+    }
+
+    .sign {
+      font-size: 25px;
+    }
+
+    .year {
+      font-size: 44px;
     }
 }
