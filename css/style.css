@@ -1,5 +1,5 @@
 body {
-  background: url('../resources/img/background_475.png') no-repeat center center fixed;  
+  background: url('../resources/img/sm_background_portrait.png') no-repeat center center fixed;  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -20,9 +20,10 @@ body header h1 {
 
 main {
   width: 100%;
-  margin-top: -45px;
-  background: url('../resources/img/top_pipe_475.png') no-repeat center top scroll,
-              url('../resources/img/center_pipe_475.png') repeat-y center top scroll;  
+  margin-top: -55px;
+  background: 
+    url('../resources/img/sm_pipe_top_portrait.png') no-repeat center top scroll,
+    url('../resources/img/sm_pipe_center_portrait.png') repeat-y center top scroll;  
   padding-top: 85px;
 }
 
@@ -83,25 +84,19 @@ li article p {
       background-size: cover;
     }
 }
- 
 
-@media screen and (min-width: 901px){
-  header {
-    height: 86%;
-  } 
-}
-
-@media screen and (max-width: 1440px) and (min-width: 780px) {
+@media screen and (max-width: 1440px) and (min-width: 750px) {
     body {
-      background: url('../resources/img/background_900.png') no-repeat center center fixed;  
+      background: url('../resources/img/tb_background_portrait.png') no-repeat center center fixed;  
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
     }
     main {
-        background: url('../resources/img/top_pipe_900.png') no-repeat center top scroll,
-                    url('../resources/img/center_pipe_900.png') repeat-y center top scroll;
+        background: 
+          url('../resources/img/tb_pipe_top_landscape.png') no-repeat center top scroll,
+          url('../resources/img/tb_pipe_center_landscape.png') repeat-y center top scroll;
     }
     header {
       width: 70%;
@@ -110,15 +105,16 @@ li article p {
 
 @media screen and (min-width: 1441px) {
     body {
-      background: url('../resources/img/background_1920.png') no-repeat center center fixed;  
+      background: url('../resources/img/pc_background.png') no-repeat center center fixed;  
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
     }
     main {
-      background: url('../resources/img/top_pipe_1920.png') no-repeat center top scroll,
-                  url('../resources/img/center_pipe_1920.png') repeat-y center top scroll;  
+      background: 
+        url('../resources/img/pc_pipe_top.png') no-repeat center top scroll,
+        url('../resources/img/pc_pipe_center.png') repeat-y center top scroll;  
     }
     header {
       width: 50%;
