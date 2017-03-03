@@ -72,6 +72,19 @@ li article p {
   text-align: right;
 }
 
+
+
+@media screen and (orientation: landscape) {
+  body {
+      background: url('../resources/img/sm_background_landscape.png') no-repeat center center fixed;  
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+}
+ 
+
 @media screen and (min-width: 901px){
   header {
     height: 86%;
